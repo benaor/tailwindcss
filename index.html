@@ -9,9 +9,9 @@
 </head>
 
 <body class="font-body">
-    <div class="text-gray-600">
+    <div class="text-gray-600 grid md:grid-cols-3">
         <!-- Wrapper de contenu tailwindcss -->
-        <div>
+        <div class="md:col-span-1">
             <nav>
                 <div>
                     <h1 class="font-bold uppercase p-4 border-b border-gray-300">
@@ -45,7 +45,7 @@
                 </div>
             </nav>
         </div>
-        <main class="px-16 py-6 bg-gray-100">
+        <main class="px-16 py-6 bg-gray-100 md:col-span-2">
             <div class="flex sm:justify-center md:justify-end">
                 <a href="#" class="text-primary">Se connecter</a>
                 <a href="#" class="text-primary ml-2">Créer un compte</a>
@@ -64,7 +64,7 @@
                 <h4 class="font-bold mt-12 pb-2 border-b border-gray-400">
                     Les dernières recettes
                 </h4>
-                <div class="mt-8">
+                <div class="mt-8 grid lg:grid-cols-3 sm:grid-cols-1 gap-10">
 
                     <!-- Card de nos recettes -->
                     <div class="card">
