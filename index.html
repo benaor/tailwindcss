@@ -11,59 +11,69 @@
 <body class="font-body">
     <div class="text-gray-600 grid md:grid-cols-3">
         <!-- Wrapper de contenu tailwindcss -->
-        <div class="md:col-span-1">
-            <nav>
-                <div>
-                    <h1 class="font-bold uppercase p-4 border-b border-gray-300">
+        <div class="md:col-span-1 md:flex justify-end">
+            <nav class="text-right">
+                <div class="flex justify-between items-center border-b border-gray-300">
+                    <h1 class="font-bold uppercase p-4">
                         <a href="/" class="hover:text-gray-900">
                             Mon super restaurant
                         </a>
                     </h1>
-                    <ul>
-                        <li class="text-gray-900 font-bold">
-                            <a href="#">
-                                <span>
-                                    Accueil
-                                </span>
-                                <svg class="w-3 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span>
-                                    A propos
-                                </span>
-                                <svg class="w-3 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span>
-                                    Contact
-                                </span>
-                                <svg class="w-3 inline-block" xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="px-4 cursor-pointer md:hidden">
+                        <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </div>
                 </div>
+                <ul class="hidden md:block">
+                    <li class="text-gray-900 font-bold">
+                        <a href="#" class="px-4 flex justify-end border-r-4 border-primary">
+                            <span>
+                                Accueil
+                            </span>
+                            <svg class="w-3 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="px-4 flex justify-end border-r-4 border-white">
+                            <span>
+                                A propos
+                            </span>
+                            <svg class="w-3 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="px-4 flex justify-end border-r-4 border-white">
+                            <span>
+                                Contact
+                            </span>
+                            <svg class="w-3 ml-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </div>
         <main class="px-16 py-6 bg-gray-100 md:col-span-2">
             <div class="flex sm:justify-center md:justify-end">
-                <a href="#" class="text-primary btn border-primary border-2 hover:bg-primary hover:text-white">Se connecter</a>
-                <a href="#" class="text-primary ml-2 btn border-primary border-2 hover:bg-primary hover:text-white">Créer un compte</a>
+                <a href="#" class="text-primary btn border-primary border-2 hover:bg-primary hover:text-white">Se
+                    connecter</a>
+                <a href="#"
+                    class="text-primary ml-2 btn border-primary border-2 hover:bg-primary hover:text-white">Créer un
+                    compte</a>
             </div>
 
             <header>
