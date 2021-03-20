@@ -12,6 +12,9 @@ module.exports = {
       }, 
       fontFamily: {
         body: ['Nunito'],
+      }, 
+      fontSize: {
+        'xxl': ['16rem', { lineHeight: '1' }],
       }
     },
   },

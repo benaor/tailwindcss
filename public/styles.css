@@ -11828,6 +11828,11 @@ video {
   line-height: 1;
 }
 
+.text-xxl{
+  font-size: 16rem;
+  line-height: 1;
+}
+
 .leading-3{
   line-height: .75rem;
 }
@@ -31755,6 +31760,20 @@ video {
   letter-spacing: 0.05em;
 }
 
+.monPutainDeBouton{
+  border-radius: 9999px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
@@ -43028,6 +43047,11 @@ video {
 
   .sm\:text-9xl{
     font-size: 8rem;
+    line-height: 1;
+  }
+
+  .sm\:text-xxl{
+    font-size: 16rem;
     line-height: 1;
   }
 
@@ -74110,6 +74134,11 @@ video {
     line-height: 1;
   }
 
+  .md\:text-xxl{
+    font-size: 16rem;
+    line-height: 1;
+  }
+
   .md\:leading-3{
     line-height: .75rem;
   }
@@ -105186,6 +105215,11 @@ video {
 
   .lg\:text-9xl{
     font-size: 8rem;
+    line-height: 1;
+  }
+
+  .lg\:text-xxl{
+    font-size: 16rem;
     line-height: 1;
   }
 
@@ -136268,6 +136302,11 @@ video {
     line-height: 1;
   }
 
+  .xl\:text-xxl{
+    font-size: 16rem;
+    line-height: 1;
+  }
+
   .xl\:leading-3{
     line-height: .75rem;
   }
@@ -167344,6 +167383,11 @@ video {
 
   .\32xl\:text-9xl{
     font-size: 8rem;
+    line-height: 1;
+  }
+
+  .\32xl\:text-xxl{
+    font-size: 16rem;
     line-height: 1;
   }
 
